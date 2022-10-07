@@ -1,10 +1,9 @@
-package io.netty.example.study.codec;
+package io.netty.example.study.server.codec;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.example.study.common.RequestMessage;
 import io.netty.handler.codec.MessageToMessageDecoder;
-import sun.misc.Request;
 
 import java.util.List;
 
